@@ -3,6 +3,7 @@
 ## Table of Contents
 
   1. [General Questions](#general-questions)
+  1. [Configuration Management Questions](#configuration-management-questions)
   1. [Network Questions](#network-questions)
   1. [Linux Questions](#linux-questions)
   1. [Windows Questions](#windows-questions)
@@ -15,11 +16,14 @@
 
 #### General Questions
 
-* Do you have any experience with Puppet, Chef, Salt or Ansible?
-  * How long have you used it for?
-  * Have you used it in production or QA/Dev?
-* Describe the  environment that you automated (how many servers, products, etc.)
 * Describe the most challenging situation that you were faced with and how you overcame the challenge?
+
+### Configuration Management Questions
+
+* Do you have any experience with Puppet, Chef, Salt or Ansible?
+* How long have you used a CMS for?
+* Have you used it in production or Test/Dev?
+* How large was the environment?
 
 #### Network Questions
 
@@ -46,30 +50,28 @@
 
 #### Security Questions
 
-* Difference between authorization and authentication?
-* Describe two-factor authentication
+* What is the difference between authorization and authentication?
+* What is two-factor authentication?
 
 #### Cloud Questions
 
-* Have you used AWS or other cloud platforms?
-  * How long for?
-  * In production or just at home on personal projects?
-* How to keep logs on servers or containers with ephemeral storage?
-* Where to look when trying to reduce cloud costs without reducing capacity?
+* What is your experience with any Cloud platform? (AWS/Openstack/Azure)
+* Have you used a cloud environment in a production environment?
+* What is a logging strategy for servers or containers with ephemeral storage?
+* Where should you look when trying to reduce cloud costs without reducing capacity?
 
 #### Architecture Questions
 
-* How to scale a database without just increasing capacity of a single machine while maintaining [ACID](http://en.wikipedia.org/wiki/ACID)?
-* How to choose between relational database and noSQL?
-* What advantages a NoSQL database like MongoDB has, comparing to MySQL?
-* How to manage API versions?
-* How to reduce load time of a dynamic website?
-* How to reduce load time of a static website?
+* What are the differences between relational databases and noSQL? databases
+* What advantages do NoSQL databases like MongoDB have compared to MySQL?
+* How would you manage API versions?
+* How would you reduce load time of a dynamic website?
+* How would you reduce load time of a static website?
 
 #### CI Questions
 
-* Are you familiar with CI tools? Which ones?
-* Describe your experience implementing continuous deployment
+* Do you have any expreience with CI tools? Which ones?
+* Describe your experience implementing continuous deployment in a production environment
 
 #### Coding Questions
 
@@ -77,5 +79,6 @@
 
 #### Fun Questions
 
-* Do you have any side projects?
+* What is your favorite side project?
 * If you could learn any technology now, what would be?
+* How do you keep up with current technology trends?
