@@ -41,7 +41,7 @@
 * Do you have any experience with Active Directory?
 * Have you ever integrated Active Directory with any applications?
 * Describe what an OU is within Active Directory.
-** An organizational unit (OU) is a subdivision within an Active Directory into which you can place users, groups, computers, and other organizational units. You can create organizational units to mirror your organization's functional or business structure.
+`An organizational unit (OU) is a subdivision within an Active Directory into which you can place users, groups, computers, and other organizational units. You can create organizational units to mirror your organization's functional or business structure.`
 
 #### Security Questions
 
