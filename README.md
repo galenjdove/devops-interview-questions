@@ -15,31 +15,33 @@
 
 #### General Questions
 
-* Have you used Puppet, Chef, Salt or Ansible?
+* Do you have any experience with Puppet, Chef, Salt or Ansible?
   * How long have you used it for?
-  * Have you used it in production?
-* Describe the size of the environment that you automated (how many servers, small scale or large scale)
-* Describe the most challenging situation that you were faced with and how did you fix it?
+  * Have you used it in production or QA/Dev?
+* Describe the  environment that you automated (how many servers, products, etc.)
+* Describe the most challenging situation that you were faced with and how you overcame the challenge?
 
 #### Network Questions
 
-* What’s a PTR in DNS?
-* What’s a MX record in DNS?
+* What is a PTR in DNS?
+* What is a MX record in DNS?
 * How a CDN chooses the closest host to serve a client?
-* In which cases would you choose to not implement a CDN?
+* When would you ever not want to use a CDN?
 
 #### Linux Questions
 
-* Difference between RAID 0, 1 and 5?
-* What’s the advantage of one RAID over another?
-* Alternative to init.d in Linux?
-* How to view running processes in Linux?
-* How to check DNS records in Linux?
+* What are RAID 0, 1, 5, 6 and 10?
+* Advantages/disadvantages between each raid scheme?
+* What is an alternative to init.d in Linux?
+* How do you view running processes in Linux?
+* How do you check DNS records in Linux?
 
 #### Windows Questions
 
-* Are you familiar with just linux or have you worked with Windows environments as well?
-  * If yes to windows do you use powershell? Octopus Deploy? TeamCity? Active Directory? Azure?
+* Do you have any experience with Active Directory?
+* Have you ever integrated Active Directory with any applications?
+* Describe what an OU is within Active Directory.
+** An organizational unit (OU) is a subdivision within an Active Directory into which you can place users, groups, computers, and other organizational units. You can create organizational units to mirror your organization's functional or business structure.
 
 #### Security Questions
 
