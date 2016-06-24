@@ -20,7 +20,7 @@
 
 ### Configuration Management Questions
 
-* Do you have any experience with Puppet, Chef, Salt or Ansible?
+* Do you have any experience with a CMS (configuration management system)?
 * How long have you used a CMS for?
 * Have you used it in production or Test/Dev?
 * How large was the environment?
@@ -28,8 +28,17 @@
 #### Network Questions
 
 * What is a PTR in DNS?
+
+> You can think of the PTR record as an opposite of the A record. While the A record points a domain name to an IP address, the PTR record resolves the IP address to a domain/hostname. PTR records are used for the reverse DNS (Domain Name System) lookup.
+
 * What is a MX record in DNS?
-* How a CDN chooses the closest host to serve a client?
+
+> A mail exchanger record (MX record) is a type of resource record in the Domain Name System that specifies a mail server responsible for accepting email messages on behalf of a recipient's domain, and a preference value used to prioritize mail delivery if multiple mail servers are available.
+
+* How does a CDN chooses the closest host to serve a client?
+
+> When the browser makes a DNS request for a domain name that is handled by a CDN, there is a slightly different process than with small, one-IP sites. The server handling DNS requests for the domain name looks at the incoming request to determine the best set of servers to handle it. At it’s simplest, the DNS server does a geographic lookup based on the DNS resolver’s IP address and then returns an IP address for an edge server that is physically closest to that area. So if I’m making a request and the DNS resolver I’m routed to is Virginia, I’ll be given an IP address for a server on the East coast; if I make the same request through a DNS resolver in California, I’ll be given an IP address for a server on the West coast. You may not end up with a DNS resolver in the same geographic location from where you’re making the request.
+
 * When would you ever not want to use a CDN?
 
 #### Linux Questions
@@ -62,7 +71,7 @@
 
 #### Architecture Questions
 
-* What are the differences between relational databases and noSQL? databases
+* What are the differences between relational databases and noSQL databases?
 * What advantages do NoSQL databases like MongoDB have compared to MySQL?
 * How would you manage API versions?
 * How would you reduce load time of a dynamic website?
