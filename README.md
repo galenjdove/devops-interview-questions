@@ -21,6 +21,9 @@
 ### Configuration Management Questions
 
 * Do you have any experience with a CMS (configuration management system)?
+
+> Puppet/Ansible/Chef/Salt. Code based management. Repeatable and reusable infrastructure
+
 * How long have you used a CMS for?
 * Have you used it in production or Test/Dev?
 * How large was the environment?
@@ -41,6 +44,8 @@
 
 * When would you ever not want to use a CDN?
 
+> Frequent changes to file assets. Takes a while to propogate and control versions. Regions rely on DNS resolution, sometimes is not 100% reliable
+
 #### Linux Questions
 
 * What are RAID 0, 1, 5, 6 and 10?
@@ -48,6 +53,8 @@
 * What is an alternative to init.d in Linux?
 * How do you view running processes in Linux?
 * How do you check DNS records in Linux?
+
+> nslookup, dig
 
 #### Windows Questions
 
@@ -65,7 +72,7 @@
 #### Cloud Questions
 
 * What is your experience with any Cloud platform? (AWS/Openstack/Azure)
-* Have you used a cloud environment in a production environment?
+* Have you used a cloud environment in production?
 * What is a logging strategy for servers or containers with ephemeral storage?
 * Where should you look when trying to reduce cloud costs without reducing capacity?
 
@@ -80,7 +87,12 @@
 #### CI Questions
 
 * Do you have any expreience with CI tools? Which ones?
+
+> Jenkins, Bamboo, TeamCity, etc.
+
 * Describe your experience implementing continuous deployment in a production environment
+
+> Types of jobs run, systems integrated, etc.
 
 #### Coding Questions
 
